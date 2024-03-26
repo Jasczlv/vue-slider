@@ -17,21 +17,13 @@ createApp({
   },
   methods: {
     indexIncrease() {
-      this.index;
-      return index++;
+      this.index++;
+      console.log(this.index);
     },
 
     indexDecrease() {
-      this.index;
-      return index--;
+      this.index--;
+      console.log(this.index);
     },
   },
 }).mount("#app");
-
-function indexIncrease() {
-  return index++;
-}
-
-function indexDecrease() {
-  return index--;
-}

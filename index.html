@@ -21,10 +21,10 @@
             class="item"
             alt=""
           />
-          <div @="indexIncrease()" class="prev">
+          <div v-on:click="indexDecrease" class="prev">
             <i class="fa-solid fa-arrow-left"></i>
           </div>
-          <div @="indexDecrease()" class="next">
+          <div v-on:click="indexIncrease" class="next">
             <i class="fa-solid fa-arrow-right"></i>
           </div>
         </div>
